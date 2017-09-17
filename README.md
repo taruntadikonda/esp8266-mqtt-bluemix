@@ -7,3 +7,10 @@ The ESP8266 is a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontro
 ![esp8266](https://user-images.githubusercontent.com/25893079/30521791-bacc5124-9be2-11e7-8433-034606159528.png)
 We program the ESP8266 in the Arduino IDE.Download the following libraries which are essential. 
 [Libraries](https://github.com/esp8266/Arduino)
+[Download the code](https://github.com/taruntadikonda/esp8266-mqtt-bluemix)
+We will use MQTT Broker Dioty for this tutorial , we will discuss in the next section.Make sure of entering the valid details of ssid and MQTT credentials. 
+## MQTT
+MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport. It is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium. For example, it has been used in sensors communicating to a broker via satellite link, over occasional dial-up connections with healthcare providers, and in a range of home automation and small device scenarios. It is also ideal for mobile applications because of its small size, low power usage, minimised data packets, and efficient distribution of information to one or many receivers.It works on publish and subscribe concept. 
+[Dioty](http://www.dioty.co/) is a MQTT broker which provides free service.Login into the Dioty and add the MQTT credentials in the above code. 
+## Bluemix
+[Bluemix](https://console.bluemix.net/) is a cloud platform as a service (PaaS) developed by IBM. It supports several programming languages and services as well as integrated DevOps to build, run, deploy and manage applications on the cloud. Bluemix is based on Cloud Foundry open technology and runs on SoftLayer infrastructure. Login into Bluemix and create a Node-Red starter service in the catolag. 
