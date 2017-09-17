@@ -14,3 +14,27 @@ MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. I
 [Dioty](http://www.dioty.co/) is a MQTT broker which provides free service.Login into the Dioty and add the MQTT credentials in the above code. 
 ## Bluemix
 [Bluemix](https://console.bluemix.net/) is a cloud platform as a service (PaaS) developed by IBM. It supports several programming languages and services as well as integrated DevOps to build, run, deploy and manage applications on the cloud. Bluemix is based on Cloud Foundry open technology and runs on SoftLayer infrastructure. Login into Bluemix and create a Node-Red starter service in the catolag. 
+
+![pic1](https://user-images.githubusercontent.com/25893079/30521891-f62c0ff0-9be4-11e7-898f-2e17e543bbb1.png)
+
+Fill the details and start the service.After creating the service go to the dashboard and make sure that the Node Red service is running.
+
+![pic2](https://user-images.githubusercontent.com/25893079/30521893-fc3ad598-9be4-11e7-9489-b87bc4e97b72.png)
+
+Visit the appliction url and then it is followed by a Node Red editor page. 
+
+![pic3](https://user-images.githubusercontent.com/25893079/30521894-06a9a586-9be5-11e7-99bd-f1e9e6e378d1.png)
+
+Create a username and password and then login.
+
+![pic4](https://user-images.githubusercontent.com/25893079/30521896-0bf9b724-9be5-11e7-8d8b-06e6dd41dc50.png)
+
+Connect the following nodes as shown. 
+
+![pic5](https://user-images.githubusercontent.com/25893079/30521898-1299fa1c-9be5-11e7-9684-e6ef69fcffc9.png)
+
+Fill the credentials under the MQTT node. The username and the password are the parameters of the Dioty which we have logged in. 
+
+![pic6](https://user-images.githubusercontent.com/25893079/30521904-248fd7e6-9be5-11e7-80c8-d60ac457a7f3.png)
+
+Deploy the flow and you can see data in the debug tab which is sent from the ESP8266. 
