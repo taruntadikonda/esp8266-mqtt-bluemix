@@ -1,1 +1,1 @@
-# esp8266-mqtt-bluemix
+# ESP8266 Mqtt Bluemix
